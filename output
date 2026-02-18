@@ -1,0 +1,53 @@
+Logistic Regression Results
+Accuracy: 0.613673805601318
+Precision: 0.7290985208677216
+Recall: 0.613673805601318
+F1: 0.5776905798032768
+
+Random Forest Results
+Accuracy: 0.627677100494234
+Precision: 0.6682307033920024
+Recall: 0.627677100494234
+F1: 0.6199940146472088
+
+Classification Report (Random Forest)
+              precision    recall  f1-score   support
+
+    American       0.73      0.40      0.52        67
+      Bakery       0.78      0.69      0.73        84
+        Cafe       0.35      0.84      0.50       117
+     Chinese       0.61      0.45      0.52        96
+ Continental       0.38      0.13      0.19        39
+    Desserts       0.67      0.24      0.35        25
+   Fast Food       0.68      0.38      0.49       107
+   Ice Cream       0.90      0.75      0.82        24
+     Italian       0.67      0.42      0.52        38
+      Mithai       0.77      0.62      0.69        32
+     Mughlai       0.67      0.26      0.37        31
+North Indian       0.69      0.79      0.74       438
+       Pizza       0.85      0.82      0.84        40
+South Indian       0.91      0.63      0.74        46
+ Street Food       0.71      0.40      0.51        30
+
+    accuracy                           0.63      1214
+   macro avg       0.69      0.52      0.57      1214
+weighted avg       0.67      0.63      0.62      1214
+
+
+Sample Predictions:
+                       Restaurant Name Actual Cuisine Predicted Cuisine
+0                          Bhola Dhaba   North Indian      North Indian
+1                              Barista           Cafe              Cafe
+2                           Basil Tree        Italian       Continental
+3   Moti Mahal Delux - Tandooori Trail   North Indian      North Indian
+4              Dialogue Lounge & Cafí©           Cafe      North Indian
+5               Lanterns Kitchen & Bar        Italian      North Indian
+6                      Hungry Minister    Continental              Cafe
+7                      Nagpal Di Hatti   North Indian      North Indian
+8                   The Tangy Tomatoes        Italian              Cafe
+9                      Sheroes Hangout           Cafe       Continental
+10                       R. Ahmad Food   North Indian      North Indian
+11                             Red Hot   North Indian           Chinese
+12                          Sri Balaji   South Indian      South Indian
+13                          Amici Cafe           Cafe              Cafe
+14                         Ben's Foods   North Indian      North Indian
